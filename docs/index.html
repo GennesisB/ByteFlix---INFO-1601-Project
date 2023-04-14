@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ByteFlix</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <a href="docs/index.html" class="logo">
+      <i class='bx bx-camera-movie'></i>Byte<span id="flix">Flix</span>
+    </a>
+
+    <ul class="nav">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="trending.html" class="nav-link">Trending</a></li>
+      <li><a href="comingsoon.html" class="nav-link">Coming Soon</a></li>
+    </ul>
+
+     <form id="form">
+          <input
+            type="text"
+            id="search"
+            placeholder="Search"
+            class="search"
+            />
+    </form>
+
+  </header>
+
+  <section class="slideshow">
+
+    <div class="slides">
+      <img src="https://i.ytimg.com/vi/GHep8PzFBII/maxresdefault.jpg" class="box-img" id="slide-img" class = "img-slide">
+      <a href="https://youtu.be/SJWRY4DzoAQ" target="_blank" class="trailer-btn"><i class='bx bx-play-circle'></i>Watch
+        Trailer</a>
+    </div>
+
+    <div class="slides">
+      <img src="https://wikiofnerds.com/wp-content/uploads/2023/02/Untitled-1200-%C3%97-638-px.jpg" id="slide-img" class = "img-slide">
+      <a href="https://youtu.be/ZlNFpri-Y40" target="_blank" class="trailer-btn"><i class='bx bx-play-circle'></i>Watch
+        Trailer</a>
+    </div>
+
+    <div class="slides">
+      <img src="https://i0.wp.com/www.murphysmultiverse.com/wp-content/uploads/2023/03/BostonStrangler.jpg?fit=1024%2C576&ssl=1"
+        id="slide-img" class = "img-slide">
+      <a href="https://youtu.be/N_yfmHCkSB0" target="_blank" class="trailer-btn"><i class='bx bx-play-circle'></i>Watch
+        Trailer</a>
+    </div>
+
+  </section>
+
+  <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  </div>
+
+  <h2 class="heading">Recently Released</h2>
+
+  <div id="content"></div>
+  
+
+  <footer>
+    <p>&#169; 2023 Byte<span id = "dev">Devlopers</span></p>
+  </footer>
+
+</body>
+
+</html>
